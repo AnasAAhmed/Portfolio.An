@@ -1,0 +1,137 @@
+.CarouselContainer{ 
+    max-width: 1040px;
+  background: #0F1624;
+  padding: 0rem;
+  list-style:none;
+  display: flex;
+  justify-content: space-between; 
+  /* overflow-x: hidden; */
+
+  margin-left: 32px;
+  
+
+  margin-bottom: 80px;
+
+  
+  scrollbar-width: none;  
+   
+}
+.CarouselContainer:first-of-type{
+  margin-left: 0px;
+}
+.CarouselContainer::-webkit-scrollbar {
+  display: none;
+}
+.CarouselItem{ 
+    background: #131a2b;
+    border-radius: 10px;
+    max-width: 196px;
+}
+.CarouselItemTitle{ 
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    display: flex;
+    /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
+    background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 8px;
+  
+}
+.CarouselItemTitleM{ 
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    display: flex;
+    /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
+    background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 8px;
+}
+.CarouselItemImg{ 
+    margin-left: 21px;
+    -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+    width: 100%;
+}
+.CarouselItemText{ 
+    font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.75);
+  padding-right: 16px;
+
+}
+.CarouselButtons{ 
+    width: 288px;
+
+  display: none;
+  visibility: hidden;
+
+}
+.CarouselButton{ 
+    box-sizing: border-box;
+    background: none;
+    padding: 4px;
+    border: none;
+    cursor: pointer;
+    margin-right: 4px;
+    opacity: 33;
+    transform:  scale(1);
+  
+}
+.CarouselButton:focus {
+  outline: none;
+}
+.CarouselButtonDot{
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    width: 3px;
+    height: 3px;
+}
+.Boxes{ 
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin: 24px 0 40px;
+}
+.Box{
+  background: #212e49;
+  border-radius: 12px;
+  height: 144px;
+  padding: 24px;
+}
+.BoxNum{ 
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+
+}
+.BoxText{ 
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.75);
+}
+.lo{ 
+  font-size: 3rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  animation: sg 0.6s infinite linear alternate;
+}
+@keyframes sg {
+  to{ 
+    transform: translateY(-16%);
+  }
+}

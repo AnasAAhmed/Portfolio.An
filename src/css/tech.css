@@ -1,0 +1,45 @@
+.List{ 
+    list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin: 3rem 0; 
+}
+.ListContainer{ 
+    display: flex;
+    flex-direction: column;
+}
+.ListTitle{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.ListParagraph{ 
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.75);
+  
+}
+.ListItem{
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+.ListIcon{  
+    display: block;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 10px;
+}
+.SectionText{ 
+    font-family: "Space Grotesk";
+    max-width: 800px;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 300;
+    padding-bottom: 3.6rem;
+    color: rgba(255, 255, 255, 0.75);
+}

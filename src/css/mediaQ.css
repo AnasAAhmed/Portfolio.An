@@ -1,0 +1,504 @@
+@media screen and (max-width: 1024px) {
+    .GridContainer {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        padding-bottom: 0;
+    }
+
+    .BlogCard {
+        width: 100%;
+    }
+    .LinkList {
+        padding: 32px 0 16px;
+    }
+
+    .ImageContainer {
+        background-image: none;
+        padding: 0;
+        margin-top: 40px;
+    }
+
+    .List {
+        margin: 64px 0;
+    }
+
+    .Box {
+        height: 210px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .pol {
+        border-radius: 30px;
+        width: 100%;
+    }
+
+    .Container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(2, 60px);
+        grid-column-gap: 0.5rem;
+        grid-row-gap: 0.5rem;
+    }
+
+    .Div1 {
+        grid-area: 1 / 1 / 2 / 3;
+    }
+
+    .Div2 {
+        grid-area: 2 / 2 / 3 / 5;
+    }
+
+    .Div3 {
+        align-items: center;
+        grid-area: 1 / 4 / 2 / 6;
+    }
+
+    .NavLink {
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .CarouselItem {
+        max-width: 124px;
+    }
+
+    .CarouselItemTitle {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 4px;
+    }
+
+    .CarouselItemTitleM {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 4px;
+    }
+
+    .CarouselItemText {
+        font-size: 12px;
+        line-height: 18px;
+        padding-right: 32px;
+    }
+
+
+
+
+    .LinkItem {
+        font-size: 16px;
+        line-height: 28px;
+        display: flex;
+    }
+
+    .SocialIconsContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .CompanyContainer {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .Slogan {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .SocialContainer {
+        justify-content: center;
+        padding-right: 16px;
+        flex-wrap: wrap;
+    }
+
+    .LinkList {
+        width: 100%;
+        padding: 32px 0 16px;
+        gap: 16px;
+    }
+
+    .ListIcon {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 8px;
+    }
+
+    .ListItem {
+        max-width: 203px;
+    }
+
+    .ListParagraph {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .ListTitle {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .List {
+        margin: 64px 0;
+        gap: 24px
+    }
+
+    .ImageContainer {
+        background-image: none;
+        padding: 0;
+        margin-top: 16px;
+    }
+
+    .BoxText {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .BoxNum {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .Box {
+        height: 135px;
+        padding: 16px;
+    }
+
+    .Boxes {
+        gap: 16px;
+        margin: 20px 0 32px;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    }
+
+    .divider {
+        width: 48px;
+        height: 4px;
+    }
+
+    h2 {
+        font-size: 48px;
+        line-height: 48px;
+        margin-bottom: 12px;
+        padding: 40px 0 12px;
+    }
+
+    .SectionText {
+        max-width: 670px;
+        font-size: 20px;
+        line-height: 32px;
+        padding-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+.CarouselContainer{
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    touch-action: pan-x;
+    justify-content: initial;
+    margin-bottom: 8px;
+}
+.CarouselMobileScrollNode{
+    display: flex;
+    min-width: min-content;
+}
+  
+.CarouselItem{ 
+    margin-left: 32px;
+    min-width: 120px;
+    background: #0E131F;
+    padding: 4px;
+    align-content: start;
+    scroll-snap-align: start;
+    border-radius: 3px;
+    overflow: visible;
+    position: relative;
+    height: fit-content;
+}
+.CarouselItemTitle{ 
+    font-size: 16px;
+    line-height: 24px;
+}
+.CarouselItemTitleM{ 
+    font-size: 16px;
+    line-height: 24px;
+}
+.CarouselItemImg{
+    -webkit-mask-image: none;
+    margin-left: 16px;
+    overflow: visible;
+}
+.CarouselItemText{ 
+    font-size: 10px;
+    line-height: 16px;
+    padding-right: 0;
+}
+.CarouselButtons{
+    display: flex;
+    visibility: visible;
+    margin-bottom: 48px;
+}
+    
+
+    .ExternalLinks {
+
+        font-size: 0.8rem;
+        padding: 1rem 1rem;
+
+    }
+
+    .TagList {
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem;
+    }
+
+    .Tag {
+
+        font-size: 0.7rem;
+    }
+
+    .BgAnimation__svg{ 
+        display: none;
+    }
+    .Sectiond{ 
+        display: flex;
+    }
+  
+
+    .pol {
+        border-radius: 30px;
+        width: 100%;
+    }
+
+    .Container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(2, 60px);
+        grid-column-gap: 0.5rem;
+        grid-row-gap: 0.5rem;
+    }
+
+    .Div1 {
+        grid-area: 1 / 1 / 2 / 3;
+    }
+
+    .Div2 {
+        grid-area: 2 / 2 / 3 / 5;
+        margin-right: 32px;
+        
+    }
+
+
+
+
+    .Div3 {
+        align-items: center;
+        grid-area: 1 / 4 / 2 / 6;
+    }
+
+    .NavLink {
+        padding: 0.5rem;
+        color: white;
+        text-decoration: dotted;
+    }
+    
+
+    h2 {
+        font-size: 30px;
+        line-height: 28px;
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 8px;
+
+        max-width: 100%;
+    }
+
+
+
+    .FooterWrapper {
+        padding: 0 16px 48px;
+        width: calc(100vw - 32px);
+    }
+
+    .LinkItem {
+        font-size: 14px;
+        line-height: 14px;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+    }
+
+    .SocialIconsContainer {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .CompanyContainer {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 32px;
+        align-items: center;
+    }
+
+    .Slogan {
+        line-height: 22px;
+        font-size: 14px;
+        min-width: 100px;
+    }
+
+    .LinkList {
+        width: 100%;
+        padding: 32px 4px 16px;
+        gap: 5px;
+    }
+
+    
+
+    .List {
+        display: flex;
+        flex-direction: column;
+        margin: 32px 0;
+    }
+
+    .ListContainer {
+        display: flex;
+        margin-left: 18px;
+    }
+
+    .ListTitle {
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0.02em;
+        margin-bottom: 4px;
+    }
+
+    .ListParagraph {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .ListItem {
+        margin-bottom: 14px;
+        max-width: 320px;
+        flex-direction: row;
+    }
+
+    .ListIcon {
+        width: 32px;
+        height: 32px;
+        margin-bottom: 0px;
+    }
+
+    .pol {
+        border-radius: 30px;
+        width: 100%;
+    }
+
+    .GridContainer {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        padding-bottom: 0;
+    }
+
+    .BlogCard {
+        width: 100%;
+    }
+
+    .CardInfo {
+        padding: 1rem;
+    }
+
+    .divider {
+        margin-bottom: -21px;
+        width: 32px;
+        height: 2px;
+    }
+
+    .Boxes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        max-width: 500px;
+        margin: 24px auto;
+    }
+
+    .Box {
+        height: 110px;
+        padding: 12px;
+    }
+
+    .Box:nth-child(2n) {
+        grid-row: 2;
+    }
+
+    .BoxNum {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .BoxText {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .SectionText {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 16px;
+        padding-right: 20px;
+    }
+    .lo{
+         font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 590px) {
+    h2 {
+        font-size: 30px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .pol {
+
+        width:85%;
+    }
+
+    .GridContainer {
+
+        margin: 0 -9% 0 -9%;
+    }
+}
+
+@media screen and (max-width: 392px) {
+    .NavLink {
+        font-size:1.3rem;
+       /* color: white; */
+      
+       
+    }
+
+    .Span {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        max-width: 90%;
+        line-height: 35px;
+
+    }
+    .GridContainer {
+    
+        margin: 0 -27% 0 -27%;
+    }
+}
+
+

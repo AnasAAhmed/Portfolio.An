@@ -1,0 +1,144 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+ body{
+ background-color: #0F1624;
+ color: hsl(204,23.8%,95.9%);
+scroll-behavior: smooth;
+}
+.Con{ 
+  max-width: 1280px;
+width: 100%;
+margin: auto;
+}
+.divider{ 
+  width: 100px;
+  height: 6px;
+  border-radius: 10px;
+  background-image: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%);
+    margin: 4rem 0;
+  }
+  
+
+ 
+.Section{ 
+  display:  flex;
+  flex-direction:  column;
+  padding:32px 48px 0 ;
+  margin: 0 auto;
+  max-width: 1040px;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+}
+.Sectiond{ 
+  display: grid;
+  flex-direction:  column;
+  padding:32px 48px 0 ;
+  margin: 0 auto;
+  max-width: 1040px;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bg-blue{ 
+  text-align: center;
+}
+.pol{ 
+  height: 70px;
+  border: none;
+  background-image: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%);
+  width: 40%;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+
+}
+.pol:hover {
+  background-image: linear-gradient(270deg, #52fffc 0%, #bf58ff 100%);
+  }
+ 
+.container{ 
+  background-color: #0F1624;
+ color: hsl(204,23.8%,95.9%);
+}
+.GridContainer{ 
+  display: grid;
+grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+padding: 3rem;
+place-items: center;
+column-gap: 2rem;
+row-gap: 3rem;
+}
+.BlogCard{ 
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  text-align: center;
+  width: 400px;
+}
+.TitleContent{ 
+  text-align: center;
+  z-index: 20;
+  width: 100%;
+}
+.HeaderThree{ 
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #9cc9e3;
+  padding: .5rem 0;
+  font-size:  '2rem';
+}
+.CardInfo{ 
+  width: 100%;
+  padding: 0 50px;
+  color: #e4e6e7;
+ 
+  font-style: 2rem;
+  line-height: 24px;
+  text-align: justify;
+}
+.UtilityList{ 
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  margin: 2.5rem 0;
+}
+.ExternalLinks{
+  color:#d4c0c0;
+  font-size: 1.2rem;
+  padding:1rem 1.5rem;
+  background: #6b3030;
+  border-radius: 30px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.ExternalLinks:hover {
+    background: #801414;
+}
+.TagList{ 
+  display: flex;
+justify-content: space-around;
+padding: 2rem;
+}
+.Tag{ 
+  color: #d8bfbf;
+font-size: 1.5rem;
+}
+.Img{ 
+  width:100%;
+  height:100%;
+  border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
