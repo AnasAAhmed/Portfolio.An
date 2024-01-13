@@ -58,6 +58,24 @@ export const projects = [
     visit: 'https://anasaahmed.github.io/My-Portfolio',
     id: 5,
   },
+  {
+    title: 'iNoteBook',
+    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    image: "https://raw.githubusercontent.com/AnasAAhmed/Todolist/main/Screenshot%20(6).png",
+    tags: ['React', 'Mongodb', 'JavaScript','Bootstrap'],
+    source: 'https://github.com/AnasAAhmed/inotebook-gh3p-mern',
+    visit: 'https://inotebook-gh3p-mern.vercel.app',
+    id: 6,
+  },
+  {
+    title: 'Evently',
+    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    image: "https://raw.githubusercontent.com/AnasAAhmed/Todolist/main/Screenshot%20(4).png",
+    tags: ['React', 'Mongodb', 'JavaScript','Stripe','Uploadthing','Nextjs','Clerk','Tailwind','Shadcn'],
+    source: 'https://github.com/AnasAAhmed/event-plt',
+    visit: 'https://event-plt.vercel.app',
+    id: 7,
+  },
 ];
 
 export const TimeLineData = [
